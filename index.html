@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 1280px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/!OnlineBuild.loader.js"></script>
+    <script src="Build/Build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/!OnlineBuild.data",
-        frameworkUrl: "Build/!OnlineBuild.framework.js",
-        codeUrl: "Build/!OnlineBuild.wasm",
+        dataUrl: "Build/Build.data",
+        frameworkUrl: "Build/Build.framework.js",
+        codeUrl: "Build/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NovaShoopa",
         productName: "Lost",
